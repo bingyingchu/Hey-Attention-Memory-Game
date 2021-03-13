@@ -48,15 +48,20 @@ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser
 https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The challenge I had was that sometimes I was not able to hear the sound played by my computer. I discovered the following might be the reasons:
+1) the setting of my browser's autoplay policy stopped it;
+2)I was not consistent with my coding style in the JavaScript file(missing a bracket or a semicolon caused the crash).
+The way I overcome it was to debug with the development tools and I found and fixed all the bugs. 
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+I enjoyed this project and have learned a lot about the development process. My questions about web development  
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-If I had more time working on the project, I would like 
-1)the computer to create a random sequence each time the user clicks on the start button, instead of following the settled existing pattern. 
-2)I might also try to stop the user to play with the button until the user hits the start button. 
+If I had more time on the project, I would like: 
+1)the computer to create a random sequence each time the user clicks on the start button, instead of following the settled existing pattern;
+2)to stop the user playing with the buttons until the user hits the start button;
+3)to set a timer calculating the time the user spends on winning the game.
 
 
 
