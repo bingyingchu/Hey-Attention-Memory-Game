@@ -10,7 +10,7 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5; // must be between 0.0 and 0.1
 var guessCounter = 0;
-
+var mistake = 0;
 
 function startGame(){
   //initialize game variables
@@ -30,10 +30,10 @@ function stopGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 587.3,
+  2: 659.3,
+  3: 784.0,
+  4: 740.0
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn];
@@ -123,8 +123,14 @@ function guess(btn){
       guessCounter++;
     }
   }
+  else{
+    mistake++;
+    if(mistake == 3){
+      loseGame();
+    }
     else{
-    loseGame();
+        
+    }
   }
   }
 
