@@ -129,7 +129,18 @@ function guess(btn){
       loseGame();
     }
     else{
-        
+      if(guessCounter == progress){
+        if(progress == pattern.length - 1){
+          winGame();
+        }
+        else{
+          progress++;
+          playClueSequence();
+        }
+      }
+      else{
+        guessCounter++;
+      }
     }
   }
   }
