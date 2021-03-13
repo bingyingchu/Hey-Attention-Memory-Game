@@ -109,8 +109,16 @@ function guess(btn){
   
   if(pattern[guessCounter] == btn){
     if(guessCounter == progress){
-      
+      if(progress == pattern.length - 1){
+        winGame();
+      }
+      else{
+        progress++;
+      }
     }
+  }
+  else{
+    loseGame()
   }
   }
 }
