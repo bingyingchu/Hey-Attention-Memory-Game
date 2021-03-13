@@ -66,7 +66,7 @@ o.connect(g);
 o.start(0);
 
 function lightButton(btn){
-  document.getElementById("buttton"+btn).classList.add("lit");
+  document.getElementById('buttton"+btn).classList.add("lit");
 }
 
 function clearButton(btn){
@@ -104,9 +104,11 @@ function winGame(){
 
 function guess(btn){
   console.log("user guessed: " + btn);
+  
   if(!gamePlaying){
     return;
   }
+  
   if(pattern[guessCounter] == btn){
     if(guessCounter == progress){
       if(progress == pattern.length - 1){
