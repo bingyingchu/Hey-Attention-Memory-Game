@@ -3,9 +3,12 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: transparent;
+  color: hsla(14, 100%, 53%, 0.6);
 }
 
 h1 {
-  font-style: italic;
+  font-style: normal;
   color: #373fff;
+  font-family: verdana, arial, sans-serif;
 }
