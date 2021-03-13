@@ -46,7 +46,7 @@ button {
   background: green;
 }
 
-#button2:active, #button1.lit {
+#button2:active, #button2.lit {
   background: blue;
 }
 
