@@ -8,7 +8,16 @@ body {
 }
 
 h1 {
-  font-style: normal;
-  color: #373fff;
   font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
 }
