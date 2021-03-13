@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 https://cdn.glitch.com/bd8e6409-800e-4051-88f4-6093ba7b87d9%2Fwon.gif
-https://cdn.glitch.com/bd8e6409-800e-4051-88f4-6093ba7b87d9%2Fthree%20mistakes.gif?v=1615609123249
+https://cdn.glitch.com/bd8e6409-800e-4051-88f4-6093ba7b87d9%2Fthree%20mistakes.gif
 
 
 ## Reflection Questions
