@@ -22,7 +22,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [√] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [ ] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
@@ -51,11 +51,13 @@ https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaud
 The challenge I had was that sometimes I was not able to hear the sound played by my computer. I discovered the following might be the reasons:
 1) the setting of my browser's autoplay policy stopped it;
 2)I was not consistent with my coding style in the JavaScript file(missing a bracket or a semicolon caused the crash).
-The way I overcome it was to debug with the development tools and I found and fixed all the bugs. 
+The way I overcame it was to debug with the development tools and I found and fixed all the bugs. 
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-I enjoyed this project and have learned a lot about the development process. My questions about web development  
+I enjoyed this project and have learned a lot about the development process. My questions about web development include:
+1) since this is a frontend project, I am curious to know how to connect it with backend data;
+2) all the development procedures are clear and well written, but I would like to learn how to develop the design thinking so I can complete a project like this completely on my own. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 If I had more time on the project, I would like: 
