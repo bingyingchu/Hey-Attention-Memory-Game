@@ -10,7 +10,6 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5; // must be between 0.0 and 0.1
 var guessCounter = 0;
-var mistake = 0;
 
 function startGame(){
   //initialize game variables
@@ -124,26 +123,9 @@ function guess(btn){
     }
   }
   else{
-    mistake++;
-    if(mistake == 3){
-      loseGame();
+    loseGame();
     }
-    else{
-      if(guessCounter == progress){
-        if(progress == pattern.length - 1){
-          winGame();
-        }
-        else{
-          progress++;
-          playClueSequence();
-        }
-      }
-      else{
-        guessCounter++;
-      }
-    }
-  }
-  }
+}
 document.querySelector('button').addEventListener('click', function() {
   context.resume().then(() => {
     console.log('Playback resumed successfully');
