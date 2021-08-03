@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+P {
+  color: orange;
+}
+
 h1 {
   font-family: verdana, arial, sans-serif;
 }

@@ -4,23 +4,23 @@ const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-
+let pattern = [];
 let progress = 0;
 let gamePlaying = false;
 let tonePlaying = false;
 let volume = 0.28; // must be between 0.0 and 0.1
 let guessCounter = 0;
 
-function getRandomInt(max, 25) {
-  for (ley i = 0; i < 25; i++){
-    
+function getRandomInt(max, length) {
+  for (let i = 0; i < length; i++){
+    pattern.push(Math.floor(Math.random() * max));
   }
-  return Math.floor(Math.random() * max);
+  return pattern
 }
 
 function startGame() {
   //initialize game variables
-  const pattern = getRandomInt(6);
+  const pattern = getRandomInt(6, 25);
   progress = 0;
   gamePlaying = true;
   //swap the Start and Stop buttons

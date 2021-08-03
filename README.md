@@ -9,16 +9,10 @@ Follow the rules to play the game:
 * Player hits the 'Start' button to start the game;
 * Game buttons each light up and play a sound(pitch (frequency)) when clicked;
 * Computer plays back sequence of clues including sound and visual cue for each button;
+* Computer picks a different pattern each time the game is played;
 * Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess;
 * User wins the game after guessing a complete pattern;
 * User loses the game after three incorrect guesses.
-
-The following **optional** features are implemented:
-
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
-* [ ] User has a limited amount of time to enter their guess on each turn
-
 
 ## Video Walkthrough
 

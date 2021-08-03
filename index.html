@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello!</title>
+    <title>Memory Game</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -14,17 +14,18 @@
     <script src="/script.js" defer></script>
   </head>  
   <body>
+    <div>
     <h1>Hey Attention!</h1>
-    
-    <p>
-      Welcome to the game! Repeat back the pattern by pressing buttons.
-    </p>
+    </div>
+
     <button id="startBtn" onclick="startGame()">
       Start
     </button>
     <button id="stopBtn" class="hidden" onclick="stopGame()">
       Stop
     </button>
+    <br>
+    </br>
     <div id="gameButtonArea">
       <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
       <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
@@ -33,5 +34,8 @@
       <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
       <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
     </div>
+    <p>
+      Hint: Click on the 'Start' button to start the game and repeat back the pattern by pressing buttons.
+    </p>
   </body>
 </html>
