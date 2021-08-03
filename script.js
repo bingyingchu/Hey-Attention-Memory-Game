@@ -99,10 +99,13 @@ const lives = 3;
 
 function loseGame() {
   stopGame();
-  lives --;
-  if (lives < 0) {
-    alert("Game Over. You lost.");
-  }
+  alert("Game Over. You lost.");
+}
+
+function restartGame() {
+  stopGame()
+  alert(`You have ${lives} chances left.`)
+  startGame();
 }
 
 function winGame() {
@@ -129,7 +132,12 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
-    loseGame();
+    if (lives !== 0) {
+      lives--;
+      restartGame()
+    } else {
+      loseGame();
+    }
   }
 }
 document.querySelector("button").addEventListener("click", function() {
