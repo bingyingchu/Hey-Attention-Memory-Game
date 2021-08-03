@@ -68,7 +68,7 @@ button {
 }
 
 #button4:active, #button5.lit {
-  background: grey;
+  background: black;
 }
 
 #button4:active, #button6.lit {

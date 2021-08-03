@@ -4,17 +4,12 @@ const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
+let pattern = [2, 6, 4, 3, 5, 1, 2, 4, 5, 2, 6, 3, 5, 5, 4];
 let progress = 0;
 let gamePlaying = false;
 let tonePlaying = false;
 let volume = 0.28; // must be between 0.0 and 0.1
 let guessCounter = 0;
-
-function getRandomArbitrary(min, max) {
-  return Math.random() * (max - min) + min;
-}
-
-const pattern = getRandomArbitrary(1,6);
 
 function startGame() {
   //initialize game variables
@@ -64,9 +59,9 @@ function stopTone() {
 
 //Page Initialization
 // Init Sound Synthesizer
-var context = new AudioContext();
-var o = context.createOscillator();
-var g = context.createGain();
+let context = new AudioContext();
+let o = context.createOscillator();
+let g = context.createGain();
 g.connect(context.destination);
 g.gain.setValueAtTime(0, context.currentTime);
 o.connect(g);
@@ -100,9 +95,14 @@ function playClueSequence() {
   }
 }
 
+const lives = 3;
+
 function loseGame() {
   stopGame();
-  alert("Game Over. You lost.");
+  lives --;
+  if (lives < 0) {
+    alert("Game Over. You lost.");
+  }
 }
 
 function winGame() {
