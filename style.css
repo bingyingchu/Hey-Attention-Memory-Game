@@ -4,7 +4,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: transparent;
-  color: hsla(14, 100%, 53%, 0.6);
+  color: hsla(14, 100%, 0.6);
   text-align: center;
 }
 
@@ -67,12 +67,12 @@ button {
   background: yellow;
 }
 
-#button4:active, #button5.lit {
+#button5:active, #button5.lit {
   background: black;
 }
 
-#button4:active, #button6.lit {
-  background: lightyellow;
+#button6:active, #button6.lit {
+  background: grey;
 }
 
 
