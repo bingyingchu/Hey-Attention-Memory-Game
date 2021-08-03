@@ -1,20 +1,13 @@
-# Pre-work - *Memory Game*
+## *Memory Game*
 
-*Memory Game* is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+This game is built with HTML, CSS and JavaScript on Glitch: https://bingyingchu-memory-game.glitch.me/)
 
-Submitted by: Bingying Chu
+## How to play
 
-Time spent: 4 hours spent in total
+Follow the rules to play the game:
 
-Link to project: (insert your link here, should start with https://bingyingchu-memory-game.glitch.me/)
-
-## Required Functionality
-
-The following **required** functionality is complete:
-
-* [√] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [√] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [√] Game buttons each light up and play a sound when clicked. 
+* The player hits the 'Start' button to start the game;
+* Game buttons each light up and play a sound when clicked;
 * [√] Computer plays back sequence of clues including sound and visual cue for each button
 * [√] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
 * [√] User wins the game after guessing a complete pattern
@@ -32,9 +25,6 @@ The following **optional** features are implemented:
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough
 
