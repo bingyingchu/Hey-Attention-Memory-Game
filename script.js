@@ -20,7 +20,7 @@ function getRandomInt(min, max, length) {
 }
 
 function startGame() {
-  const pattern = getRandomInt(6, 25);
+  const pattern = getRandomInt(1, 7, 25);
   progress = 0;
   gamePlaying = true;
   //swap the Start and Stop buttons
