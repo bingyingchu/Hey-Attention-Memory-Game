@@ -12,9 +12,9 @@ let volume = 0.28; // must be between 0.0 and 0.1
 let guessCounter = 0;
 
 // have the ocmputer pick a different pattern each time the game is played
-function getRandomInt(max, length) {
-  for (let i = 1; i < length; i++){
-    pattern.push(Math.floor(Math.random() * max));
+function getRandomInt(min, max, length) {
+  for (let i = 0; i < length; i++){
+    pattern.push(Math.floor(Math.random() * (max - min) + min));
   }
   return pattern
 }
