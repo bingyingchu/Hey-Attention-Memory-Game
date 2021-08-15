@@ -17,8 +17,7 @@ Follow the rules to play the game:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://cdn.glitch.com/bd8e6409-800e-4051-88f4-6093ba7b87d9%2Fwon.gif
-https://cdn.glitch.com/bd8e6409-800e-4051-88f4-6093ba7b87d9%2Fthree%20mistakes.gif
+http://g.recordit.co/Enc71FbHfD.gif
 
 
 ## License
