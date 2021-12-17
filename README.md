@@ -17,12 +17,12 @@ Follow the rules to play the game:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-http://g.recordit.co/Enc71FbHfD.gif
+<img src='http://g.recordit.co/Enc71FbHfD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Bingying Chu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
